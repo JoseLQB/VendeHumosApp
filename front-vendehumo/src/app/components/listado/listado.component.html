@@ -1,0 +1,22 @@
+<div class="container-list">
+  <div class="col-md-12"><br>
+      <h5 class="center" >Mostrando {{listaVendehumos.length}} vendehumos.</h5>
+  </div>
+  <div class="row">
+  <div class="col-md-9 col-sm-4">
+
+    <ul class="list-group" *ngFor='let vh of listaVendehumos'>
+    <a href="#" class="list-group-item list-group-item-action list-group-item-dark d-flex justify-content-between align-items-center">
+      <div class="flex-column">
+        {{vh.nombre}}
+        <p><small>{{vh.descripcion | slice:0:100}}...</small></p>
+        <span class="badge badge-info badge-pill">Votos: {{vh.votadoPor.length}}</span>
+      </div>
+      <div class="image-parent">
+          <img src="{{vh.urlImage}}" class="img-fluid" alt="quixote" width="200" >
+      </div>
+    </a>
+  </ul>
+  </div>
+  </div>
+</div>
