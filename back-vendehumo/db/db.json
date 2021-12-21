@@ -1,0 +1,79 @@
+{
+  "vendehumos": [
+    {
+      "id": 1,
+      "nombre": "Jossef Ajram",
+      "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "categorias": [
+        "Trading"
+      ],
+      "fechaAlta": "new Date(2020, 2, 13)",
+      "urlImage": "https://www.lavanguardia.com/files/image_449_220/uploads/2017/02/13/5fa3caba8943e.jpeg",
+      "votadoPor": [
+        1,
+        2
+      ],
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "nombre": "Roberto Gamboa",
+      "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "categorias": [
+        "No se"
+      ],
+      "fechaAlta": "new Date(2020, 2, 16)",
+      "urlImage": "https://s03.s3c.es/imag/_v0/770x420/f/5/3/600x400_ROBERTO-defini.png",
+      "votadoPor": [
+        3
+      ],
+      "userId": 2
+    },
+    {
+      "id": 3,
+      "nombre": "Willirex",
+      "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "categorias": [
+        "NFTs"
+      ],
+      "fechaAlta": "new Date(2020, 4, 26)",
+      "urlImage": "https://e00-marca.uecdn.es/assets/multimedia/imagenes/2019/07/13/15630045096883.jpg",
+      "votadoPor": [
+        2,
+        3,
+        1
+      ],
+      "userId": 3
+    },
+    {
+      "nombre": "Miquel Baixas",
+      "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "categorias": [
+        "Internet"
+      ],
+      "fechaAlta": "new Date(2021, 12, 21)",
+      "urlImage": "https://www.diariodesevilla.es/2020/05/28/entrevistas/Miquel-Baixas-emprendedor-business-angel_1468663759_121999976_667x375.jpg",
+      "votadoPor": [],
+      "usuerId": 3,
+      "id": 4
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Jose",
+      "email": "jose@gmail.com",
+      "rol": "admin",
+      "vendehumosVoted": [],
+      "urlImage": "https://i1.sndcdn.com/avatars-000354584510-msismh-t200x200.jpg"
+    },
+    {
+      "name": "Mari",
+      "email": "mari@gmail.com",
+      "rol": "user",
+      "vendehumosVoted": [],
+      "urlImage": "https://i1.sndcdn.com/avatars-000354584510-msismh-t200x200.jpg",
+      "id": 2
+    }
+  ]
+}
